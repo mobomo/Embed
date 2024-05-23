@@ -8,9 +8,9 @@ use Psr\Http\Message\UriInterface;
 
 class OEmbed extends Base
 {
-    const ENDPOINT_PAGE = 'https://graph.facebook.com/v11.0/oembed_page';
-    const ENDPOINT_POST = 'https://graph.facebook.com/v11.0/oembed_post';
-    const ENDPOINT_VIDEO = 'https://graph.facebook.com/v11.0/oembed_video';
+    const ENDPOINT_PAGE = 'https://graph.facebook.com/v18.0/oembed_page';
+    const ENDPOINT_POST = 'https://graph.facebook.com/v18.0/oembed_post';
+    const ENDPOINT_VIDEO = 'https://graph.facebook.com/v18.0/oembed_video';
 
     protected function detectEndpoint(): ?UriInterface
     {

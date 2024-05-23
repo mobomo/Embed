@@ -8,7 +8,7 @@ use Psr\Http\Message\UriInterface;
 
 class OEmbed extends Base
 {
-    const ENDPOINT = 'https://graph.facebook.com/v8.0/instagram_oembed';
+    const ENDPOINT = 'https://graph.facebook.com/v18.0/instagram_oembed';
 
     protected function detectEndpoint(): ?UriInterface
     {

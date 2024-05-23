@@ -286,7 +286,7 @@ return [
         '|^https?://eyrie\\.io/board/.*$|i',
         '|^https?://eyrie\\.io/sparkfun/.*$|i',
     ],
-    'https://graph.facebook.com/v10.0/oembed_post' => [
+    'https://graph.facebook.com/v18.0/oembed_post' => [
         '|^https?://www\\.facebook\\.com/.*/posts/.*$|i',
         '|^https?://www\\.facebook\\.com/.*/activity/.*$|i',
         '|^https?://www\\.facebook\\.com/.*/photos/.*$|i',
@@ -297,12 +297,12 @@ return [
         '|^https?://www\\.facebook\\.com/questions/.*$|i',
         '|^https?://www\\.facebook\\.com/notes/.*/.*/.*$|i',
     ],
-    'https://graph.facebook.com/v10.0/oembed_video' => [
+    'https://graph.facebook.com/v18.0/oembed_video' => [
         '|^https?://www\\.facebook\\.com/.*/videos/.*$|i',
         '|^https?://www\\.facebook\\.com/video\\.php\\?id\\=.*$|i',
         '|^https?://www\\.facebook\\.com/video\\.php\\?v\\=.*$|i',
     ],
-    'https://graph.facebook.com/v10.0/oembed_page' => [
+    'https://graph.facebook.com/v18.0/oembed_page' => [
         '|^https?://www\\.facebook\\.com/.*$|i',
     ],
     'https://app.getfader.com/api/oembed' => [
@@ -465,7 +465,7 @@ return [
     'http://api.inphood.com/oembed' => [
         '|^https?://.*\\.inphood\\.com/.*$|i',
     ],
-    'https://graph.facebook.com/v10.0/instagram_oembed' => [
+    'https://graph.facebook.com/v18.0/instagram_oembed' => [
         '|^https?://instagram\\.com/.*/p/.*,$|i',
         '|^https?://www\\.instagram\\.com/.*/p/.*,$|i',
         '|^https?://instagram\\.com/p/.*$|i',
